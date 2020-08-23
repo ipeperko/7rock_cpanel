@@ -1,0 +1,187 @@
+
+.clear {
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+}
+
+
+
+.login_page {   
+    background-image: url('../images/pink_panther_2.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;    
+}
+
+
+
+
+/*Topbar brand image*/ 
+.topbar-brand>img {
+    height: 25px;
+}
+
+#topbar-current-song {
+    font-size: 9px;
+    margin-left: 6px;
+    font-style: italic;
+}
+
+
+
+
+/* Upload image dialog */
+.uploadimage-dragndrop { border: 2px dashed #DDD; margin: 20px 0; padding: 50px 20px; text-align: center; color: #DDD; }
+.uploadimage-text { font-size: 32px; margin-bottom: 20px; }
+.uploadimage-input { margin: 20px 0; }
+.uploadimage-upload { background: #EEE; margin: 4px 0; }
+.uploadimage-uploadcompleted { background: #d1f4ac; }
+.uploadimage-uploaderror { background: #e45900; }
+.uploadimage-fileinfo { padding: 5px; font-size: 11px; position: relative; }
+.uploadimage-progresspct { position: absolute; top: 5px; right: 5px; }
+.uploadimage-progress { background: #999; }
+.uploadimage-progressbar { background: maroon; height: 2px; }
+.uploadimage-totalprogress { background: #999; }
+.uploadimage-totalprogressbar { background: #107EC2; height: 6px; }
+.description { margin: 40px 0; }
+
+
+
+
+
+
+.table_play_btn {
+    cursor: pointer;
+    opacity: 0.4;    
+}
+.table_play_btn:hover {
+    opacity: 1;
+}
+
+.my-tbl-icon {
+    padding-top: 3px !important;
+}
+
+
+
+
+
+#playlists-body {
+    width: 100%;
+}
+
+#pl_selectable {
+    list-style-type: none;
+}
+
+.songbox_wrapper {
+    /*float: left;*/
+    display: inline-block;
+    width: 60px;
+    margin: 10px;
+    border-color: #eee;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    /*opacity: 0.7;*/
+    cursor: pointer;
+    
+}
+.songbox_wrapper.selected {
+    /*border-width: 3px;*/
+    border-color: #000;
+    border-style: solid;
+}
+.songbox_wrapper>div {
+    text-align: center;
+}
+.songbox_name {
+    font-size: 12px;
+    /*color: #fff;*/
+    margin-top: 6px;
+}
+.songbox_id {
+    font-size: 9px;
+}
+.songbox_owner {
+    font-size: 8px;
+    font-style: italic;
+}
+.songbox_count {
+    font-size: 12px;
+    margin-bottom: 2px;
+    
+}
+.songbox_x {
+    color: red;
+    font-size: 12px;
+    text-align: right !important;
+}
+.songbox_footrow {
+    /*padding-top: 2px;*/
+    padding-bottom: 2px;
+    font-size: 12px;
+    background-color: #aaa;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+
+.add-box-button {
+    /*float: left;*/ 
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+
+
+.songflag {
+    display: inline-block;
+    width:15px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+    margin-right: 1px;
+    padding: 2px;
+    cursor: pointer;    
+}
+
+
+.songflag-f.active {
+    background-color: #8bc34a;
+}
+.songflag-x.active {
+
+    background-color: #ffeb3b;
+}
+
+
+
+
+
+.instructions-wrapper {
+    margin-top: 20px;    
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.instructions-wrapper.instructions-wrapper-warning {
+    background-color: #EBEA64;
+}
+
+.instructions-wrapper h5 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+.instructions-wrapper li {
+    font-size: 12px;
+}
